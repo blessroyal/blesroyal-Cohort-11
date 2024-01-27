@@ -1,0 +1,663 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    background-image: url(../images/Jumia-cover-you-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+
+    background-color: rgb(186, 128, 241);
+    width: 100%;
+    overflow-x: hidden;
+
+}
+
+
+.container {
+    width: 85vw;
+    margin: auto;
+}
+
+.top-anime {
+    background-image: url(../images/Jumia-cover-you.gif);
+    height: 55px;
+    background-size: cover;
+    background-position: right;
+
+    
+}
+
+.menu {
+    display: flex;
+    /* justify-content: center; */
+    background-color: rgb(240, 240, 240);
+    right: 0px;
+    left: 0px;
+    height: 32px;
+    
+
+    position: absolute;
+}
+
+.container .sell-on-jumia {
+    position: absolute;
+    line-height: 2;
+    z-index: 2;
+    left: 8vw;
+    color: #F68B1E;
+    font-size: 14px;
+
+    top: 3px;
+    /* line-height: 20px; */
+    
+}
+
+.sell-on-jumia img {
+    width: 13px;
+    top: 8px;
+    position: absolute;
+}
+
+
+.sell-on-jumia a {
+    color: #F68B1E;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 500;
+    padding-left: 18px;
+
+    /* letter-spacing: 0.5px; */
+}
+
+
+
+.menu ul {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    column-gap: 13px;
+    align-items: center;
+    position: relative;
+    left: 60px;
+    margin-bottom: 0;
+}
+
+.menu ul li img {
+    padding-top: 7px;
+    width: 56px;
+}
+
+.menu ul li {
+    list-style-type: none;
+}
+
+.menu ul li i, .menu ul li a  {
+    text-decoration: none;
+    color: rgb(167, 167, 167);
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    
+}
+
+.menu ul li a {
+    font-weight: 400;
+}
+
+
+.menu ul li:hover a  {
+    color: rgb(30, 144, 238);
+}
+
+.menu ul li:hover i  {
+    color: rgb(30, 144, 238);
+}
+
+
+/* MENU 2 CSS DESIGN STARTS HERE*/
+
+.menu2 {
+    position: sticky !important;
+    top: 2px;
+    background-color: white;
+    margin-top: 32px;
+    position: sticky;
+    top: 0;
+    height: 70px;
+    padding: 0 4vw 0 8vw;
+
+
+    display: flex;
+    justify-content: space-around;
+
+    z-index: 1000;
+    
+}
+
+.menu2 img {
+    width: 130px;
+}
+
+.menu2 .right {
+    flex: 1;
+    display: flex;
+    /* background-color: lightblue; */
+    column-gap: 10px;
+    padding-left: 6vw;
+    align-items: center;
+    /* justify-content: space-between; */
+
+}
+
+.menu2 .hamburg {
+    color: black;
+}
+
+.menu2 .hamburg:hover {
+    color: orange;
+    cursor: pointer
+}
+
+
+
+.input-container {
+    width: 57%;
+    position: relative;
+}
+
+.right .input-container input {
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #696969;
+    outline: none;
+    font-size: 17px;
+    font-weight: 400;
+    padding: 0 10px 0 40px;
+    
+    
+}
+
+.right .search-icon {
+    position: absolute;
+    z-index: 1;
+    left: 12px;
+    top: 12px;
+    font-size: 18px;
+    color: #616161;
+    
+}
+
+.right button {
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 1px solid #F68B1E;
+    background-color: #F68B1E;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    box-shadow: 2px 2px 10px rgb(114, 114, 114);
+    
+}
+
+.right button:hover {
+    background-color: #d4710d;
+    border: 1px solid #d4710d;
+}
+
+
+
+
+.right .ext a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 17px;
+    color: #2b2b2b;
+    padding-left: 0px;
+}
+
+.right .ext i {
+    color: #2b2b2b;
+    /* font-weight: 500; */
+    font-size: 20px;
+    padding-left: 7px;
+
+}
+
+.right .ext:hover a {
+    color: #F68B1E;
+}
+
+.right .ext:hover i {
+    color: #F68B1E;
+}
+
+
+/* CSS FOR SCROLL TO TOP BUTTON STARTS HERE */
+
+#to-top {
+    position: sticky;
+    top: 87vh;
+     margin-left: 94.5vw;
+    padding: 13px 16px; 
+    background-color: white;
+     border-radius: 50px; 
+     border: 1px solid #F68B1E; 
+    transition: background-color 0.2s;  
+
+}
+
+a #to-top i {
+    color: #2b2b2b;
+}
+
+
+ #to-top:hover {
+    background-color: #f3dfc4;
+}
+
+
+/* CSS FOR TOP BUTTONS ENDS HERE */
+
+
+
+
+
+/* CATEGORY SECTION CSS SATRTS HERE */
+
+.cat-section {
+    display: flex;
+    width: 85vw;
+    margin: 17px auto;
+    column-gap: 15px;
+}
+
+.cat {
+    width: 210px;
+    background-color: white;
+    height: 57.7vh;
+    border-radius: 5px;
+}
+
+.cat ul li {
+    list-style-type: none;
+    padding: 7px 10px 0px 10px;
+    line-height: 1.45;
+}
+
+.cat ul li a {
+    font-size: 13px;
+    text-decoration: none;
+    color: #2b2b2b;
+   
+}
+
+.cat ul li i {
+    font-size: 14px;
+    padding-right: 10px;
+    color: black;
+}
+
+.cat ul li:hover a {
+    color: #F68B1E;
+   
+}
+
+.cat ul li:hover i {
+    color: #F68B1E;
+}
+
+
+/* show or hide cat section in other pages */
+
+.show-cat {
+    display: none;
+    position: absolute;
+    z-index: 999;
+}
+
+.menu2 .hamburghov:hover > .show-cat {
+    display: block;
+    position: absolute;
+    left: 100px;
+    top: 60px;
+    box-shadow: 4px 4px 15px rgb(170, 170, 170, 0.9);
+}
+
+
+.middle {
+    flex: 1;
+    /* background-color: lightpink; */
+    height: 57.7vh;
+    border-radius: 5px;
+    background-image: url(../images/Slider.png);
+
+}
+
+
+.right-advert {
+    width: 210px;
+    
+    height: 57.7vh;
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+.right-advert .top-advert {
+    flex: 1;
+    /* background-color: lightblue; */
+    /* border-radius: 5px; */
+    background-image: url(../images/bsb.png);
+    
+    /* line-height: 0.9; */
+
+}
+
+.call-number {
+    font-size: 14px;
+}
+
+.right-advert .down-advert {
+    flex: 1;
+    /* background-color: lightblue; */
+    border-radius: 5px;
+    background-image: url(../images/JForce.png);
+
+}
+
+.card{
+  position: relative;  
+} 
+
+ .card:hover {
+    transform: scale(1.02);
+    box-shadow: 4px 4px 15px rgb(170, 170, 170, 0.2);
+    cursor: pointer; 
+}
+
+.card-body p{
+    font-size: 13px;
+}
+
+.mck{
+    
+    color: red;
+    position: absolute;
+    top: 6%;
+    right: 5%;
+    display: block;
+    background-color:rgb(254, 243, 233)
+}
+
+.next-mck{
+    text-decoration: line-through;
+    line-height:  10px;
+    font-size: 13px;  
+    margin-top: -18px;
+    margin-bottom: 0; 
+    }
+
+.guage1{
+    position: relative;
+    margin-top: -14px;
+}
+
+.gauge1-a{
+    width: 83%;
+    background-color: rgb(240, 167, 71);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.gauge1-b{
+    width: 93%;
+    background-color: rgb(240, 167, 71);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.gauge1-c{
+    width: 91%;
+    background-color: rgb(240, 167, 71);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.gauge1-d{
+    width: 97%;
+    background-color: rgb(240, 167, 71);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.gauge1-e{
+    width: 70%;
+    background-color: rgb(240, 167, 71);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.gauge1-f{
+    width: 32%;
+    background-color: rgb(175, 28, 28);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.mck-flex-div{
+    width: 85.8%;
+    margin: auto;
+}
+
+.new-year{
+    background-color: orangered;
+}
+
+.new-year2{
+    background-color: orangered;
+}
+
+.mck-cocacola{
+    background-color: rgb(139, 169, 177);
+}
+
+
+/* JUMIA SUB-FOOTER CSS STARTS HERE */
+.sub-footerP{
+    font-size: 12px;
+}
+
+.sub-footerH{
+    font-size: 14px;
+}
+
+.subfooterH6{
+    font-size: 18px;
+}
+
+ins{
+    cursor: pointer;
+}
+
+/* JUMIA SUB-FOOTER CSS ENDS HERE */
+
+/* JUMIA FOOTER CSS STARTS HERE */
+*{
+    color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nxt-footer{
+    background-color: #565658;
+}
+.fap{
+    font-size: 13px;
+}
+
+.paddyman{
+    font-size: 11px;
+}
+
+.coderX{
+    width: 82%;
+}
+
+.coderP{
+    width: 60%;
+    margin-left: 35px;
+}
+
+hr{
+    width: 88%;
+}
+
+.botlink{
+    padding: 12px 20px;
+    border: 1px solid white;
+    color: white;
+}
+
+.botlink:hover{
+    border: 1px solid rgb(247, 109, 18);
+    color: rgb(247, 109, 18);
+}
+
+.botlink2{
+    padding-top: 0;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 10px;
+    border: 1px solid white;
+}
+
+.botlink2:hover{
+    border: 1px solid rgb(247, 109, 18);
+}
+
+.sublink{
+    font-size: 8px;
+    font-weight: lighter;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.sublink:hover{
+    color: rgb(247, 109, 18);
+}
+
+
+
+.sublink2{
+    margin: 0;
+    padding-bottom: 2px;
+    font-size: 14px;
+    color: white;
+}
+
+.sublink2:hover{
+    color: rgb(247, 109, 18);
+}
+
+.main-form{
+    position: relative;
+}
+
+.font-1{
+    position: absolute;
+    top: 13px;
+    left: 15px;
+}
+
+.font-2{
+    position: absolute;
+    top: 18px;
+    left: 8px;
+}
+
+.footer-logo{
+    margin-left: -15px;
+}
+
+input[type=email]:focus {
+    border: solid rgb(247, 109, 18);
+    outline: none;
+  }
+
+.mailer:hover{
+    color: rgb(247, 109, 18);
+}
+
+.a-special{
+    text-decoration: none;
+}
+
+.a-special:hover{
+    text-decoration: underline;
+}
+
+.text-p:hover{
+    color: rgb(247, 109, 18);
+}
+
+/* JUMIA FOOTER CSS STARTS HERE */
+
+
+/* Francis Alaetuo's JUMIA RESPONSIVENESS STARTS HERE */
+
+@media screen and (max-width: 900px) {
+    .footer-responsiveA{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+
+}
+
+
+@media (max-width: 600px) {
+    .footer-responsiveA{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .coderX{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .coderP{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-responsiveB{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+
+/* Francis Alaetuo's JUMIA RESPONSIVENESS STARTS HERE */
+
+
+/* Francis Alaetuo's JUMIA CSS ENDS HERE */
