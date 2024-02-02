@@ -1,0 +1,156 @@
+.terence-sustainability {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(images/SabiSustain.webp);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    height: 75vh;
+    
+}
+
+.terence-sustain {
+    font-size: 27px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+
+.terence-content {
+    padding: 80px 0;
+}
+
+/* TERENCE LEFT FOOTER */
+
+.terence-footer {
+    font-size: 14px;
+    color: #02075B;
+}
+
+.terence-left-footer {
+    margin-left: 14px;
+    line-height: 3;
+    white-space: nowrap;
+    flex: 1;
+}
+
+
+.terence-left-footer img:hover {
+    cursor: pointer;
+}
+
+.terence-copyright {
+    margin-left: 14px;
+    margin-top: -10px;
+    white-space: nowrap;
+}
+
+.terence-left-footer p {
+    line-height: 0.6;
+    /* flex: 1; */
+    margin-left: 14px;
+    
+}
+
+.terence-left-footer p a {
+    color: #02075B;
+}
+
+.terence-mixed {
+    flex: 1;
+    
+    display: flex;
+    column-gap: 10px;
+    justify-content: space-between;
+    min-width: max-content;
+    align-items: center;
+}
+
+.terence-middle-footer {
+    font-size: 16px;
+}
+
+.terence-right-footer {
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    align-items: center;
+}
+
+.terence-right-footer img {
+    width: 30px;
+    height: 30px;
+}
+
+
+
+
+
+/* DELETE MY ACCOUNT PAGE CSS */
+
+
+/* .terence-box {
+    margin: 0 200px;
+} */
+
+.terence-delete-header {
+    font-weight: bold;
+    font-size: 65px;
+    
+    line-height: 1.5
+    
+}
+
+.terence-delete-p {
+    font-size: 30px;
+}
+
+.terence-ul li {
+    line-height: 2;
+}
+
+.terence-account-form div {
+    display: inline-block;
+    width: 50%;
+}
+
+.terence-account-form input {
+    width: 100%;
+}
+
+.terence-textarea {
+    width: 90vw;
+}
+
+
+/* FOOTER RESPONSIVENESS */
+
+@media screen and (max-width: 1000px) {
+
+    .terence-sustain {
+        font-size: 22px;
+    }
+    
+    .terence-content {
+        font-size: 13px;
+    }
+
+    .terence-mixed {   
+        margin-top: 11%;
+        flex-direction: column;
+        row-gap: 10px;
+        justify-content: none;
+        flex: 0;
+        
+        
+        
+        /* column-gap: 10p; */
+
+    }
+}
+
+@media (max-width: 750px){
+    .terence-sustainability {
+        height: 100vh;
+    }
+}
+
