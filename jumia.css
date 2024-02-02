@@ -282,7 +282,7 @@ a #to-top i {
 .cat {
     width: 210px;
     background-color: white;
-    height: 57.7vh;
+    min-height: fit-content;
     border-radius: 5px;
 }
 
