@@ -1,0 +1,773 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+.obles-banner img{ 
+    width: 80%;
+     margin-left: 170px;  
+    margin-bottom: -3.px;
+    
+    
+}  
+
+/* here is my header section */
+.head{
+    width: 100%;
+    
+} 
+.header1-flex{
+    margin: auto;
+
+
+
+    
+}
+.gif{
+    display: flex;
+    background-color: rgba(240, 240, 240, 240);
+    
+}
+.flex{
+    margin-left:200px ;
+    font-size: 13px;
+    font-weight: 500;
+    padding-left: 18px;
+
+   
+   
+
+}
+.header1-flex a{
+     /* padding: 2px 6px;  */
+     margin-right: 45px; 
+    text-decoration: none;
+    text-transform: uppercase;
+     font-weight: bolder; 
+    color: rgb(167, 167, 167);
+     font-size: 13px;
+     margin-top:px;
+
+   
+    
+
+}
+.paid:hover{
+color: rgb(30, 144, 238);
+
+}
+.pay:hover{
+    color:  #F68B1E;;
+}
+.flex a{
+    text-decoration: none;
+    font-size: 13px;
+    color: #F68B1E;
+    
+}
+.logo{
+    margin-right: 20px;
+    
+}
+.flex a:hover{
+    text-decoration: underline;
+    color:#F68B1E; ;
+}
+
+/* HERE END THE 1ST MENU BAR SELL IN JUMIA */
+
+
+.obles-container{
+    background-color: gray;
+}
+
+
+
+
+
+
+
+/* here is my search icon section */
+ .obleflex{
+ position: relative;  
+   
+   
+}  
+.bles{
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    font-size: 14px;
+    
+}
+::placeholder{
+    text-indent: 10px;
+    font-size: 18px;
+}
+  
+
+/* HERE IS THE DROPDOWN ACCOUNT */
+.bleso:hover{
+    
+    color:#F68B1E; ;
+}  
+.bleso{
+    font-weight: bold;
+}
+    
+
+
+
+
+
+
+
+    
+
+
+
+/* <!-- HERE IS MY 3RD HEADER MENU 2  --> */
+
+
+ .hamburg {
+    color: black;
+}
+
+.hamburg:hover {
+    color: orange;
+    cursor: pointer
+}
+
+
+
+
+.cat {
+    width: 210px;
+    background-color: white;
+    /* height: 57.7vh; */
+    min-height: fit-content;
+    border-radius: 5px;
+}
+
+.cat ul li {
+    list-style-type: none;
+    padding: 7px 10px 0px 10px;
+    line-height: 1.55;
+}
+
+.cat ul li a {
+    font-size: 13px;
+    text-decoration: none;
+    color: #2b2b2b;
+   
+}
+
+.cat ul li i {
+    font-size: 14px;
+    padding-right: 10px;
+    color: black;
+}
+
+.cat ul li:hover a {
+    color: #F68B1E;
+   
+}
+
+.cat ul li:hover i {
+    color: #F68B1E;
+}
+
+
+/* show or hide cat section in other pages */
+
+.show-cat {
+    display: none;
+    position: absolute;
+    z-index: 999;
+}
+
+.hamburghov:hover > .show-cat {
+    display: block;
+    position: absolute;
+    left: 40px;
+    top: 50px;
+    box-shadow: 4px 4px 15px rgb(170, 170, 170, 0.9);
+}
+
+
+/* css for the hover of stores  */
+
+
+.blestore {
+    position: relative;
+}
+
+.health-item {
+    display: none;
+    /* position: absolute; */
+    z-index: 1000; 
+    width: 700px;
+    height: 100%; 
+    background-color: rgb(255, 255, 255);
+    
+    
+}
+
+.ps-1 li:hover .health-item {
+    display: block;
+    position: absolute;
+    left: 100%;
+    top: 0;
+    box-shadow: 4px 4px 15px rgba(156, 156, 156, 0.9);
+    /* border-radius: 10px; */
+
+    display: flex;
+     column-gap: 70px; 
+}
+
+
+.beauty-list {
+    font-size: 12px;
+    line-height:5px;
+    
+}
+.beauty-list h5{
+    font-size: 11PX;
+    font-weight: bold;
+    margin-bottom: -10PX;
+    
+}
+
+.beauty-list p,:hover {
+  font-weight: 400px; 
+  cursor: pointer;
+   
+}
+
+
+/* CSS FOR SCROLL TO TOP BUTTON */
+
+#to-top {
+    position: sticky;
+    top: 87vh;
+     margin-left: 94.5vw;
+    padding: 13px 16px; 
+    background-color: white;
+     border-radius: 50px; 
+     border: 1px solid #F68B1E; 
+    transition: background-color 0.2s;  
+
+}
+
+a #to-top i {
+    color: #2b2b2b;
+}
+
+
+ #to-top:hover {
+    background-color: #f3dfc4; 
+}
+
+
+/* CSS FOR TOP BUTTONS ENDS HERE */
+
+
+
+
+
+
+/* PICTURE GALLERY START HERE */
+.bles1{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.bg-dark{
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: 300px;
+}
+
+
+    
+ 
+
+
+.card{
+  position: relative;  
+} 
+
+
+ .card:hover{
+    transform: scale(1.02);
+    box-shadow: 4px 4px 15px rgb(170, 170, 170, 0.2);
+    cursor: pointer; 
+    
+}
+
+ .card-text{
+ font-size: 14px;
+ text-align: left;
+ padding-bottom: 2px;
+  
+
+}
+/* HERE IS FOR DISCOUNTED PRICES OBLES1 */
+.obles1{
+text-decoration: line-through;
+line-height:  10px;
+font-size: 13px;
+
+margin-top: -12px;
+margin-bottom: 0;
+position: relative; 
+}
+
+
+
+ 
+
+/* here is the  SEE ALL section */
+
+.obles4{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+} 
+
+
+
+
+
+
+
+
+    
+    
+
+
+/* HERE IS FOR PERCENTAGE OF DISCOUNTED PRICES */
+.blesroyal{
+    
+        color: red;
+        position: absolute;
+        top: 6%;
+        right: 5%;
+        display: block;
+        background-color:rgb(254, 243, 233)
+
+}
+/* PAY ON DELIVERY SECTION */
+.blesroyal2{
+    
+    color: white;
+    position: absolute;
+    top: 5%;
+    left: 4%;
+    display: block;
+    background-color:rgb(235, 23, 23);
+    font-size: 12px;
+    padding:0 4px;
+    
+
+}
+
+
+/* PRICE %  */
+span.blesg{
+    color: red;
+    background-color:rgb(254, 243, 233);
+    padding: 2px;
+    font-size: 12px;
+    border-radius: 4px;
+
+}
+/* PRICE DISCOUNTED ON CATEGORY SECTIONS */
+.obles11{
+    
+    line-height:  10px;
+    font-size: 13px;
+    
+    margin-top: -12px;
+    margin-bottom: 0;
+    position: relative; 
+    }
+
+    /* serach bar for side bar section */
+.glasicon{
+    position: relative;
+    
+} 
+.glasearch{
+    position: absolute;
+     top:10%;
+     left: 5px; 
+  
+    font-size: 18px;
+}
+
+
+/* here is scroll section */
+.scroll-side {
+    height: 200px;
+    overflow-y: scroll;
+}
+
+.scroll-side p label:hover {
+    cursor: pointer;
+}
+.scroll-side label:hover {
+    cursor: pointer;
+}
+.rad {
+    width: 1em;
+    height: 1em; 
+    accent-color: #F68B1E;;
+    cursor: pointer;
+    border: 1px solid grey;
+     outline: none; 
+}
+
+/* CSS FOR WEBKIT SCROLL BAR */
+
+.scroll-side::-webkit-scrollbar {
+    width: 0.6vw;
+  }
+  
+   
+
+.scroll-side::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: #cfcfcf;
+  }
+
+.scroll-side:hover::-webkit-scrollbar-thumb {
+    background-color: rgb(146, 146, 146);
+} 
+
+
+/* rating section STAR */
+.rate-on {
+    color: #F68B1E;
+    font-size: 12px;
+}
+
+.rate-off {
+    font-size: 12px;
+    color: #cfcfcf;
+}
+.ratenumber {
+    font-size: 12px;
+}
+
+
+/* health & beauty catgories */
+
+.sort {
+    background-color: white !important;
+    font-size: 14px;
+}
+
+.sort:hover {
+    color: #F68B1E !important;
+    
+}
+
+.big-found i:hover {
+    color: #F68B1E;
+    cursor: pointer;
+}
+
+
+/* HERE IS FOR CATEGORY OBLES2 */
+ .obles2{
+    background-color: white; 
+    font-size: 14px;
+    line-height: 1.4;
+    padding-top: 15px;
+    padding-bottom: 0px;
+     
+   
+}
+/* here is my range */
+
+ .price-input{
+        width: 80%;
+        display: flex;
+        margin: 20px 0 20px;
+       }
+       .price-input .field{
+        height: 35px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        /* background:red ; */
+       }
+
+
+ .field input{
+        width: 100%;
+        height: 100%;
+        outline: none;
+        font-size: 18px;
+         text-align: center; 
+        border-radius: 5px;
+        margin-left: 14px;
+        border: 1px solid #999;
+        margin-top: 40px;
+       }
+
+ .price-input .separator{
+        width: 80px;
+        display: flex;
+        font-size: 19px;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+       }  
+ .slider{
+        height: 5px;
+        border-radius: 5px;
+        background: orange;
+        position: relative; 
+       }  
+       
+ .slider .progress{
+        height: 5px;
+        left: 25%;
+        right: 25%;
+        position: absolute;
+        border-radius: 5px;
+        background: orange;
+       }
+
+ .range-input{
+        position: relative;
+       }
+  .range-input input{
+        position: absolute;
+        top: -5px;
+        height: 5px;
+        width: 100%;
+        background: none;
+         pointer-events: none;  
+         -webkit-appearance:none; 
+
+       }
+
+input[type="range"]::-webkit-slider-thumb{
+        height: 17px;
+        width: 17px;
+        background: orange;
+        border-radius: 50%;
+        pointer-events: none;
+        -webkit-appearance: none; 
+       }
+
+
+/* CATEGORY BUTTON SECTION.blescateg */
+/* .obls{
+    display: none !important;
+    transition: display 1s;
+}
+ .blesr:hover .obls{
+display: block !important;
+transition: display 1s;
+ }  */
+
+.obls{
+  visibility: hidden;  
+
+}
+.blesr:hover .obls{
+    visibility: visible;
+}
+
+/* here is the text section  */
+
+
+ .blesroyal-text h3{
+ font-size: 20px;
+ padding-top: 8px;
+ font-weight: lighter;
+ }
+
+ .blesroyal-text p{
+ font-size: 12px;
+ }
+
+
+ .blesroyal-text h2{
+    font-size: 18px;
+    }
+
+
+
+      /* TEXT NAV */
+
+ .oblenav{
+    display: flex;
+    justify-content:space-around;
+    /* margin-right:0; */
+     margin-top:10px ; 
+    
+    
+ }
+ .oblenav  li{
+    list-style: none;
+    
+ }  
+ .oblenav a{
+color: #2b2b2b;
+font-size: 12px;
+font-weight: bold;
+line-height: 30px;
+font-family:Roboto,-apple-system, BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif;
+margin-right: 30px;
+} 
+
+  
+ .oblenav a:hover{
+    color: #2b2b2b;
+ }
+
+
+
+
+
+
+ 
+/* Jumia Footer css starts here */
+
+.nxt-footer{
+    background-color: #565658;
+}
+.fap{
+    font-size: 13px;
+    color: white;
+}
+
+.paddyman{
+    font-size: 11px;
+}
+
+.coderX{
+    width: 82%;
+}
+
+.coderP{
+    width: 60%;
+    margin-left: 35px;
+}
+
+hr{
+    width: 88%;
+}
+
+.botlink{
+    padding: 12px 20px;
+    border: 1px solid white;
+    color: white;
+}
+
+.botlink:hover{
+    border: 1px solid rgb(247, 109, 18);
+    color: rgb(247, 109, 18);
+}
+
+.botlink2{
+    padding-top: 0;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 10px;
+    border: 1px solid white;
+}
+
+.botlink2:hover{
+    border: 1px solid rgb(247, 109, 18);
+}
+
+.sublink{
+    font-size: 8px;
+    font-weight: lighter;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.sublink:hover{
+    color: rgb(247, 109, 18);
+}
+
+
+
+.sublink2{
+    margin: 0;
+    padding-bottom: 2px;
+    font-size: 14px;
+    color: white;
+}
+
+.sublink2:hover{
+    color: rgb(247, 109, 18);
+}
+
+.main-form{
+    position: relative;
+}
+
+.font-1{
+    position: absolute;
+    top: 13px;
+    left: 15px;
+}
+
+.font-2{
+    position: absolute;
+    top: 18px;
+    left: 8px;
+}
+
+.footer-logo{
+    margin-left: -15px;
+}
+
+input[type=email]:focus {
+    border: solid rgb(247, 109, 18);
+    outline: none;
+  }
+
+.mailer:hover{
+    color: rgb(247, 109, 18);
+}
+
+.a-special{
+    text-decoration: none;
+}
+
+.a-special:hover{
+    text-decoration: underline;
+}
+
+.text-p:hover{
+    color: rgb(247, 109, 18);
+}
+
+/* Jumia Footer css ends here */
+
+
+/* mobile responsives */
+@media screen and (max-width: 888px) {
+    .obles-banner img{ 
+        width: 50%;
+         margin-left: 100px;  
+       
+        
+        
+    }  
+}
+
